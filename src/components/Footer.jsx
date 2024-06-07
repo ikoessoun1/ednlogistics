@@ -1,9 +1,30 @@
-import React from 'react';
-import '../index.css';
+import React, { useState, useEffect } from 'react';
 
 function Footer() {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY || window.pageYOffset;
+      const triggerPoint = document.getElementById('features').offsetTop;
+
+      if (scrollY > triggerPoint) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup function
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <footer className="footer">
+    <footer className={`footer ${show ? 'show' : ''}`}>
       <div className="footer-container">
         <div className="social-media">
           <a href="https://wa.me/yourwhatsapplink" target="_blank" rel="noopener noreferrer">
@@ -33,4 +54,3 @@ function Footer() {
 }
 
 export default Footer;
-
