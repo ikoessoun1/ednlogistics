@@ -764,3 +764,38 @@ span {
     transform: translateY(0);
   }
 }
+
+
+/* Adjust the font sizes and styles to keep "WELCOME TO" at the top and "EDN LOGISTICS AND TRAVEL" on one line */
+.header-heading h2 {
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Add space between elements */
+}
+
+.header-heading h1 {
+  font-size: 3.5rem; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Add space between elements */
+}
+
+/* Ensure text fits in the header for smaller window sizes */
+@media (max-width: 768px) {
+  .header-heading h2 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .header-heading h1 {
+      font-size: 3rem; /* Adjust font size for smaller screens */
+  }
+
+  .header-heading .details {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Align the booking button in the center of the screen on smaller devices */
+@media (max-width: 480px) {
+  .header-btns {
+      justify-content: center; /* Center the button horizontally */
+      margin-top: 20px; /* Add margin to separate from other elements */
+  }
+}
