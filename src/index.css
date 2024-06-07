@@ -99,7 +99,7 @@ nav ul li a:hover{
 }
 nav .menu-btn,
 .menu-icon{
-		display:none;
+		display: block;
 	}
 
 
@@ -601,122 +601,202 @@ background-color: transparent;
 
 
 
-/*                                Styles to accomodate the changing screens                                */
-
-
-
-
-
-
-
-
+/* Styles to accommodate the changing screens */
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-  .a-box{
+  .a-box {
     width: 100%;
-    height:400px;
+    height: 400px;
+  }
+  .name {
+    width: 60%;
+  }
+  .pr-heading {
+    width: 60%;
+  }
 }
-}
-
-/* Add this CSS animation */
-
 
 /* Adjust the font sizes and styles to keep "WELCOME TO" at the top and "EDN LOGISTICS AND TRAVEL" on one line */
 .header-heading h2 {
-font-size: 2.5rem; /* Adjust font size as needed */
-margin-bottom: 10px; /* Add space between elements */
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Add space between elements */
 }
 
 .header-heading h1 {
-font-size: 3.5rem; /* Adjust font size as needed */
-margin-bottom: 20px; /* Add space between elements */
+  font-size: 3.5rem; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Add space between elements */
 }
 
 /* Ensure text fits in the header for smaller window sizes */
 @media (max-width: 768px) {
-.header-heading h2 {
-font-size: 2rem; /* Adjust font size for smaller screens */
-}
-
-.header-heading h1 {
-font-size: 3rem; /* Adjust font size for smaller screens */
-}
-
-.header-heading .details {
-font-size: 1rem; /* Adjust font size for smaller screens */
-}
+  .header-heading h2 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+  .header-heading h1 {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+  }
+  .header-heading .details {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
 }
 
 /* Align the booking button in the center of the screen on smaller devices */
 @media (max-width: 480px) {
-.header-btns {
-justify-content: center; /* Center the button horizontally */
-margin-top: 20px; /* Add margin to separate from other elements */
+  .header-btns {
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add margin to separate from other elements */
+  }
 }
+
+/* max-width: 970px */
+@media only screen and (min-width: 600px) and (max-width: 970px) {
+  #main {
+    height: 650px;
+  }
+  .name, .pr-heading {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-btn {
+    margin-left: 0%;
+    margin-top: 0px;
+  }
+  .pr-btn {
+    margin-left: 20%;
+    margin-top: 20px;
+  }
 }
 
+/* Extra large devices (desktops, 970px and up) */
+@media only screen and (min-width: 970px) and (max-width: 1200px) {
+  #main {
+    background-size: 930px !important;
+  }
+  .name, .pr-heading {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .name h2 {
+    font-size: 1.5rem;
+  }
+  .name h1 {
+    font-size: 3rem;
+  }
+  .name .details {
+    font-size: 1rem;
+  }
+  .pr-heading h2, .pr-heading h1 {
+    font-size: auto;
+    text-align: justify;
+  }
+  .pr-heading .details {
+    font-size: 1rem;
+  }
+  #features {
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .a-container {
+    flex-wrap: wrap;
+  }
+  .a-box {
+    flex-grow: 1;
+  }
+  .a-b-img img {
+    object-fit: contain;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  nav {
+    display: block;
+    justify-content: space-between;
+    height: 65px;
+    padding: 0px 30px;
+  }
+  .logo img {
+    width: 70px;
+  }
+  .header-btns, .pr-btns {
+    margin: 0;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    background-color: #000000;
+    border-bottom: 4px solid #FF1414;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .menu li {
+    width: 100%;
+  }
+  nav .menu li a {
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 25px;
+    border: 1px solid rgba(38, 38, 38, 0.03);
+  }
+  nav .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  nav .menu-icon .nav-icon {
+    background-color: #ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 24px;
+  }
+  nav .menu-icon .nav-icon:before,
+  nav .menu-icon .nav-icon:after {
+    background: rgb(255, 255, 255);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all ease-out 0.2s;
+    width: 100%;
+  }
+  nav .menu-icon .nav-icon:before {
+    top: 6px;
+  }
+  nav .menu-icon .nav-icon:after {
+    top: -6px;
+  }
+  nav .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+  }
+  nav .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  nav .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  nav .menu-btn {
+    display: none;
+  }
+  nav .menu-btn:checked ~ .menu {
+    display: block;
+  }
+}
 
 
 
