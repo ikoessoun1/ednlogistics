@@ -22,7 +22,7 @@ export default function Contact() {
 
   return (
     <div id='contact' className={show ? 'show' : ''}>
-      <h1> CONTACT US TODAY</h1>
+      <h1 className='contact-header'> CONTACT US TODAY</h1>
       <form>
         <input id='contact form input' type='text' placeholder='Full Name' required/>
         <input type='email' placeholder='Type your E-mail' required/>

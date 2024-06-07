@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+.contact-header {
+  color: black;
+}
 
 body{
     margin:0px;
@@ -137,14 +140,13 @@ nav .menu-btn,
 }
 .header-btns{
     display: flex;
-    margin-top: 40px;
-    margin-left: 40%;
+    margin: 0px 0px 0px 0px;
 }
 .header-btn {
     width: auto; /* Allow the button to adjust its width based on content */
     display: inline-block; /* Display the button inline */
-    padding: 10px 20px; /* Adjust padding as needed */
-    margin-top: 40px; /* Adjust margin as needed */
+    padding: 10px 10px; /* Adjust padding as needed */
+    margin: 0px 0px 0px 0px; /* Adjust margin as needed */
     font-size: 1.4rem;
     background-color: #FF1414;
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
@@ -201,7 +203,8 @@ nav .menu-btn,
   
   .header-heading h2 {
     font-size: 2rem; /* Adjust font size as needed */
-    margin-bottom: 10px; /* Add space between elements */
+    margin-bottom: 50px;
+    margin-top: 100px; /* Add space between elements */
   }
   
   .header-heading h1 {
@@ -219,7 +222,7 @@ nav .menu-btn,
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
-    margin-top: 20px; /* Add margin between text and button */
+    margin: 0px 0px 0px 0px; /* Add margin between text and button */
   }
   
   .header-btn {
@@ -233,6 +236,13 @@ nav .menu-btn,
     border: none; /* Remove border */
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: 0px 0px 0px 0px;
   }
   
   .header-btn:hover {
@@ -468,8 +478,10 @@ span {
     flex-direction: column;
 }
 #contact h1{
-    color: #fff;
+    color: #000000;
     font-size: 3rem;
+    align-content: center;
+    text-align: center;
 }
 #contact form{
     width:600px;
@@ -487,9 +499,9 @@ span {
     padding: 10px;
     border: 100px;
     border-color: #da0202;
-    outline: none;
+    outline: solid;
     background-color: #ffffff2d;
-    color: #ffffff;
+    color: #bebebe;
     border-radius: 5px;
 }
 #contact form textarea{
@@ -565,7 +577,7 @@ span {
 
 @media(max-width:1190px){
 	#main{
-		background-size: 1150px !important;
+		background-size: 930px !important;
 		
 	}
 	.name{
@@ -590,10 +602,11 @@ span {
         text-align: center;
     }
     .pr-heading h2{
-        font-size: 1.5rem;
+        font-size: auto;
     }
     .pr-heading h1{
-        font-size: 3rem;
+        font-size: auto;
+        text-align: justify;
     }
     .pr-heading .details{
         font-size: 1rem;
@@ -633,13 +646,63 @@ span {
 
     }
     .header-btn{
-        margin-left: 20%;
-        margin-top: 20px;
+        margin-left: 0%;
+        margin-top: 0px;
     }
     .pr-btn{
         margin-left: 20%;
         margin-top: 20px;
     }
+
+    @media(max-width:970px){
+	#main{
+		height: 650px;
+	}
+	.name{
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+    }
+    .pr-heading{
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+    }
+    .header-btn{
+        margin-left: 0%;
+        margin-top: 0px;
+    }
+    .pr-btn{
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+@media(max-width:970px){
+	#main{
+		height: 650px;
+	}
+	.name{
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+    }
+    .pr-heading{
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+    }
+    .header-btn{
+        margin-left: 0%;
+        margin-top: 0px;
+    }
+    .pr-btn{
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+
 
 
     #features{
@@ -799,3 +862,48 @@ span {
       margin-top: 20px; /* Add margin to separate from other elements */
   }
 }
+
+
+
+
+
+
+
+
+/* Base styles for header 
+.contact-header {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}*/
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header-btns {
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add margin to separate from other elements */
+    
+}
+}
+
+/* Medium devices (portrait tablets, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+ 
+}
+
+/* Large devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Extra large devices (desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+  }
+
