@@ -22,7 +22,7 @@ function Header() {
           where every journey begins with a dream! Whether you're seeking adventure, relaxation, or cultural exploration, we're here to make your travel dreams come true. Start your adventure with us and discover the world like never before. Let's create unforgettable memories together!
         </p>
         <div className="header-btns">
-          <a href="#" className="header-btn"> BOOK A CONSULTATION </a>
+          <a href="https://ednlogisticsandtravels.simplybook.me/v2/#" className="header-btn"> BOOK A CONSULTATION </a>
         </div>
       </div>
     </div>

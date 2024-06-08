@@ -30,10 +30,10 @@ function Footer() {
           <a href="https://wa.me/yourwhatsapplink" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-whatsapp"></i> WhatsApp
           </a>
-          <a href="https://facebook.com/yourfacebookprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://facebook.com/EDN Logistics and Travels" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook"></i> Facebook
           </a>
-          <a href="https://instagram.com/yourinstagramprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/edn_logistics_and_travels" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i> Instagram
           </a>
           <a href="https://twitter.com/yourtwitterprofile" target="_blank" rel="noopener noreferrer">
