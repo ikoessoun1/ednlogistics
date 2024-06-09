@@ -4,6 +4,7 @@ import logo from '../edn images/logo.PNG';
 
 function Navbar() {
   const [show, setShow] = useState(false);
+  const [showNoOffers, setShowNoOffers] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +22,11 @@ function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const handleOfferClick = () => {
+    setShowNoOffers(true);
+    setTimeout(() => setShowNoOffers(false), 3000); // Hide the message after 3 seconds
+  };
 
   return (
     <nav className={`nav ${show ? 'active' : ''}`}>
@@ -45,9 +51,16 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to='offer' smooth={true} duration={1000}>
+          <Link to='offer' smooth={true} duration={100} onClick={handleOfferClick}>
             Offer
           </Link>
+          {showNoOffers && (
+            <div className="no-offers-overlay">
+              <div className="no-offers-message">
+                There are no offers currently. You can check back in a few or contact us for surprises.
+              </div>
+            </div>
+          )}
         </li>
         <li>
           <Link to='about' smooth={true} duration={1000}>
