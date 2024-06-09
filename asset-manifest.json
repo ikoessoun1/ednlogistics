@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/ednlogistics/static/css/main.84209030.css",
-    "main.js": "/ednlogistics/static/js/main.34e4e265.js",
-    "static/media/offer.png": "/ednlogistics/static/media/offer.1cafdcd5cde8e96c4a68.png",
+    "main.css": "/ednlogistics/static/css/main.62645805.css",
+    "main.js": "/ednlogistics/static/js/main.db74bee3.js",
     "static/media/airplane view 3.jpg": "/ednlogistics/static/media/airplane view 3.bfc046ffa06faff2e742.jpg",
     "static/media/freightforwarding.webp": "/ednlogistics/static/media/freightforwarding.ed60933fe981b144fd74.webp",
     "static/media/travel site 1.jpg": "/ednlogistics/static/media/travel site 1.1bf100d36eb26438349f.jpg",
     "static/media/logo.PNG": "/ednlogistics/static/media/logo.35fe7927cccc7e44e1e4.PNG",
     "static/media/car rental.webp": "/ednlogistics/static/media/car rental.8c189d6ab596405d1da9.webp",
     "static/media/documentation pic.jpg": "/ednlogistics/static/media/documentation pic.e7650bf194353ee5c813.jpg",
-    "static/media/edn flyer 1.jpg": "/ednlogistics/static/media/edn flyer 1.e7bcc044d455880b0282.jpg",
+    "static/media/flyer4.jpg": "/ednlogistics/static/media/flyer4.614aba84c0811b9edb9e.jpg",
+    "static/media/flyer3.jpg": "/ednlogistics/static/media/flyer3.323a343e7bff96e439be.jpg",
+    "static/media/flyer1.jpg": "/ednlogistics/static/media/flyer1.22e7115cca85c189a469.jpg",
+    "static/media/flyer2.jpeg": "/ednlogistics/static/media/flyer2.e7bcc044d455880b0282.jpeg",
     "index.html": "/ednlogistics/index.html",
-    "main.84209030.css.map": "/ednlogistics/static/css/main.84209030.css.map",
-    "main.34e4e265.js.map": "/ednlogistics/static/js/main.34e4e265.js.map"
+    "main.62645805.css.map": "/ednlogistics/static/css/main.62645805.css.map",
+    "main.db74bee3.js.map": "/ednlogistics/static/js/main.db74bee3.js.map"
   },
   "entrypoints": [
-    "static/css/main.84209030.css",
-    "static/js/main.34e4e265.js"
+    "static/css/main.62645805.css",
+    "static/js/main.db74bee3.js"
   ]
 }
