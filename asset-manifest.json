@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ednlogistics/static/css/main.e5469225.css",
-    "main.js": "/ednlogistics/static/js/main.db74bee3.js",
+    "main.css": "/ednlogistics/static/css/main.56094b2b.css",
+    "main.js": "/ednlogistics/static/js/main.818426c7.js",
     "static/media/airplane view 3.jpg": "/ednlogistics/static/media/airplane view 3.bfc046ffa06faff2e742.jpg",
     "static/media/freightforwarding.webp": "/ednlogistics/static/media/freightforwarding.ed60933fe981b144fd74.webp",
     "static/media/travel site 1.jpg": "/ednlogistics/static/media/travel site 1.1bf100d36eb26438349f.jpg",
@@ -13,11 +13,11 @@
     "static/media/flyer1.jpg": "/ednlogistics/static/media/flyer1.22e7115cca85c189a469.jpg",
     "static/media/flyer2.jpeg": "/ednlogistics/static/media/flyer2.e7bcc044d455880b0282.jpeg",
     "index.html": "/ednlogistics/index.html",
-    "main.e5469225.css.map": "/ednlogistics/static/css/main.e5469225.css.map",
-    "main.db74bee3.js.map": "/ednlogistics/static/js/main.db74bee3.js.map"
+    "main.56094b2b.css.map": "/ednlogistics/static/css/main.56094b2b.css.map",
+    "main.818426c7.js.map": "/ednlogistics/static/js/main.818426c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5469225.css",
-    "static/js/main.db74bee3.js"
+    "static/css/main.56094b2b.css",
+    "static/js/main.818426c7.js"
   ]
 }
