@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ednlogistics/static/css/main.62645805.css",
+    "main.css": "/ednlogistics/static/css/main.e5469225.css",
     "main.js": "/ednlogistics/static/js/main.db74bee3.js",
     "static/media/airplane view 3.jpg": "/ednlogistics/static/media/airplane view 3.bfc046ffa06faff2e742.jpg",
     "static/media/freightforwarding.webp": "/ednlogistics/static/media/freightforwarding.ed60933fe981b144fd74.webp",
@@ -13,11 +13,11 @@
     "static/media/flyer1.jpg": "/ednlogistics/static/media/flyer1.22e7115cca85c189a469.jpg",
     "static/media/flyer2.jpeg": "/ednlogistics/static/media/flyer2.e7bcc044d455880b0282.jpeg",
     "index.html": "/ednlogistics/index.html",
-    "main.62645805.css.map": "/ednlogistics/static/css/main.62645805.css.map",
+    "main.e5469225.css.map": "/ednlogistics/static/css/main.e5469225.css.map",
     "main.db74bee3.js.map": "/ednlogistics/static/js/main.db74bee3.js.map"
   },
   "entrypoints": [
-    "static/css/main.62645805.css",
+    "static/css/main.e5469225.css",
     "static/js/main.db74bee3.js"
   ]
 }
