@@ -42,11 +42,15 @@ function Footer() {
           <a href="https://www.linkedin.com/in/edn-travels2" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i> LinkedIn
           </a>
+          <a href="https://www.tiktok.com/@edn_travels" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-tiktok"></i> Tiktok
+          </a>
+
         </div>
         <div className="contact-info">
           <a href="tel:0303980290"><i className="fas fa-phone-alt"></i> +233 303980290</a>
           <a href="mailto:ednlogisticsandtravels@gmail.com"><i className="fas fa-envelope"></i> ednlogisticsandtravels@gmail.com</a>
-          <p><i className="fas fa-map-marker-alt"></i> SCC, around Fire Service </p>
+          <p><i className="fas fa-map-marker-alt"></i> SCC; near SCC Fire Service Station </p>
         </div>
       </div>
     </footer>
