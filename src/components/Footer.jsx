@@ -49,7 +49,7 @@ function Footer() {
         </div>
         <div className="contact-info">
           <a href="tel:0303980290"><i className="fas fa-phone-alt"></i> +233 303980290</a>
-          <a href="mailto:ednlogisticsandtravels@gmail.com"><i className="fas fa-envelope"></i> ednlogisticsandtravels@gmail.com</a>
+          <a href="mailto:info@ednlogisticsandtravels.com"><i className="fas fa-envelope"></i> info@ednlogisticsandtravels.com</a>
           <p><i className="fas fa-map-marker-alt"></i> SCC; near SCC Fire Service Station </p>
         </div>
       </div>
